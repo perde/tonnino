@@ -28,8 +28,14 @@
 blockquote{ font-size: 14px; padding: 0px; margin:0px; }
 
 .container-quienes-somos{ padding-top: 30px; padding-bottom: 30px; }
-.container-recomendaciones{  background: url('../img/shutterstock_623233079.png'); padding-top: 80px; }
+.container-recomendaciones{  background: url('../img/shutterstock_623233079.png'); padding-top: 80px; padding-bottom:  75px; }
 
+.titulo-recomendaciones { color: #fff; }
+.content-recomendaciones { color: #fff; }
+
+.container-bg-imagen-sub{  background: url('../img/plato-de-atun.png'); padding-top: 450px;  width:100%; height:771px;  }
+.txt-bg-conoce-sabor1{ color: #fff; font-size: 26px; }
+.txt-bg-conoce-sabor2{ color: #fff; font-size: 30px; }
 
 
 

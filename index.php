@@ -129,21 +129,45 @@
      <div class="container" >    
       <div class="row" >
        <div class="col-md-4">
-        <p> RECONOCIMIENTOS </p>  
+        <p class="titulo-recomendaciones"> RECONOCIMIENTOS </p>  
+        <div class="content-recomendaciones">dsdsdsdsdsdsdsdsddsdsdsds jldkjsld slkdj lsjkdlskj dlkjsld sjdkjs ldjls jdlksjdl s</div>
+        <!-- Boton -->
+        <a class="btn btn-link" style="color: #fff"> Ver más &rarr;</a> 
        </div>
        <div class="col-md-4">
-        <p> SOSTENIBILIDAD </p>       
+        <p class="titulo-recomendaciones"> SOSTENIBILIDAD </p>   
+        <div class="content-recomendaciones">dsdsdsdsdsdsdsdsddsdsdsds jdjslkdjs dljskd lsjdlks djlksjd lsjdl jsldjlskj dlsj</div>    
+        <!-- Boton -->
+        <a class="btn btn-link" style="color: #fff" > Ver más &rarr;</a> 
        </div>
        <div class="col-md-4">
-        <p> NUESTRO PROCESO </p>      
+        <p class="titulo-recomendaciones"> NUESTRO PROCESO </p>  
+        <div class="content-recomendaciones">dsdsdsdsdsdsdsdsddsdsdsds jdksljdlsk djlskj dlkjsld lsjd djlksjdljsld</div>   
+         <!-- Boton -->
+        <a class="btn btn-link" style="color: #fff"> Ver más &rarr;</a> 
        </div>  
       </div>
      </div>    
     </div>  
       
   </blockquote>
+
+  <div class="container-bg-imagen-sub" >
+    <div class="container" >
+      <div class="txt-bg-conoce-sabor1">Conoce el sabor</div>
+      <div class="txt-bg-conoce-sabor2">El sabor</div>
+     </div>
+  </div>
+
+  <div><div class="container" > test</div></div>
+
   
-  
+
+
+
+
+
+
   
     
     
