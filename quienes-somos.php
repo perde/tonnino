@@ -70,15 +70,17 @@
       </div>
     </div>
 
+    <div class="title-cabecera" >
+     <p> QUIÉNES SOMOS </p>
+    </div>
 
-
-    <br><br>
       
   </div>   
         
   <!-- --> <!-- --> <!-- --> <!-- --> <!-- --> <!-- --> <!-- --> <!-- --> <!-- --> <!-- --> <!-- -->
   <!-- --> <!-- --> <!-- --> <!-- --> <!-- --> <!-- --> <!-- --> <!-- --> <!-- --> <!-- --> <!-- -->
   <div class="container" >
+    <br><br>
     <!-- CONTENEDOR ::: CONTENEDOR ::: CONTENEDOR --> <!-- CONTENEDOR ::: CONTENEDOR ::: CONTENEDOR -->
     <div class="text-center" > 
       <p class="titulo-nosotros" > NUESTRO </p>
