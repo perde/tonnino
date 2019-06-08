@@ -54,6 +54,7 @@
 .fontTitle {font-family: 'EdoSZ';}
 .textDescripcion{font-family: 'FontAwesome5BrandsRegular';}
 p{ font-family: 'FontAwesome5BrandsRegular'; }
+.colorMostaza {color:#A48970 !important;}
 
 .container-header{ padding: 0px; }
 .container-header header{ color: #FFF; position: absolute; z-index: 100; width: 100%; } 
@@ -73,7 +74,7 @@ p{ font-family: 'FontAwesome5BrandsRegular'; }
 .navbar-default .navbar-nav>li>a{ color:#fff; font-family: 'FontAwesome5BrandsRegular';}
 
 .class-padding-bottom { position: absolute; width: 100%; top: 31px; }
-.class-trace{ background: #A48A71;font-family: 'EdoSZ'; }
+.class-trace{ background: #A48A71;font-family: 'EdoSZ' !important; }
 .logo-general{ z-index: 90;position: inherit; }
 .paddin-separation{ padding-left: 25px; padding-right: 25px; }
 
@@ -95,6 +96,15 @@ p{ font-family: 'FontAwesome5BrandsRegular'; }
 
 /* paralos logos -- segunda seccion */
 .icon-recomendacion{ color: #A28B6E;width: 40px;  }
+
+.img_svg path {
+  stroke: #A48970 ;
+  fill: #A48970 ;
+}
+path:hover {
+    fill:#A48970 ;
+}
+
 .class-recomendaciones p{ color: #fff; }
 .titulo-recomendaciones { color: #A48970 !important;font-size:18px; font-family: 'EdoSZ';}
 .class-pading-top{ padding-top: 80px; }
@@ -141,6 +151,6 @@ p{ font-family: 'FontAwesome5BrandsRegular'; }
 
 
 .class-cuadro-cr{ background: url('../img/cr-footer.jpg');height: 400px;padding-top:100px; }
-.class-cuadro-top{ color: #fff;font-size: 40px; }
-.class-cuadro-bottom{ color: #000;font-size: 60px; }
+.class-cuadro-top{ color: #fff;font-size: 40px; font-family: 'EdoSZ'; }
+.class-cuadro-bottom{ color: #000;font-size: 60px; font-family: 'EdoSZ';  }
 
