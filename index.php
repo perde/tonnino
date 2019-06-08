@@ -68,7 +68,7 @@
           <div class="item active">
            <img src="img/portada.png" alt="Poratada 1" class="img-responsive" >
            <div class="carousel-caption">
-            <h1>PROCESO ARTESANAL</h1>
+            <h1 class="fontTitle">PROCESO ARTESANAL</h1>
             <p> Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonum- </p>
             <p> my nibh euismod tincidunt </p>
            </div>
@@ -76,7 +76,7 @@
           <div class="item">
            <img src="img/portada-2.png" alt="Portada 2" class="img-responsive" >
            <div class="carousel-caption">
-            <h1>PROCESO ARTESANAL</h1>
+            <h1 class="fontTitle">PROCESO ARTESANAL</h1>
             <p> my nibh euismod tincidunt </p>
            </div>
           </div>
@@ -118,7 +118,7 @@
     <!-- 1 -->
     <div class="container-quienes-somos" >
       <div class="container" >  
-        <h3>¿ QUIÉNES SOMOS ?</h3>
+        <h3 class="fontTitle" style="color: #A48970 !important; font-size: 90px">¿ QUIÉNES SOMOS ?</h3>
         <p> Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh cuis- </p>       
         <p> mod tincidunt ur laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim </p>
         <p> veniam, quis nostrud </p>
@@ -161,7 +161,7 @@
        <div class="col-md-4">
         <div class="row" >
  	     <div class="col-md-2" >
- 	       <object type="image/svg+xml" data="iconos/004-peanut-butter.svg" class="icon-recomendacion" style="color: #fff;" ></object>
+ 	       <object type="image/svg+xml" data="iconos/004-peanut-butter.svg" class="icon-recomendacion" style="color: #fff; " ></object>
  	     </div>	
  	     <div class="col-md-10 class-recomendaciones" >
  	       <p class="titulo-recomendaciones"> NUESTRO PROCESO </p>	
