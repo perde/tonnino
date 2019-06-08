@@ -5,6 +5,8 @@
  <meta charset="UTF-8">
  <meta name="description" content="Tonnino" >
  <link href="bootstrap/css/bootstrap.min.css" media="screen" rel="stylesheet" type="text/css">
+ <link href="css/slick.css" media="screen" rel="stylesheet" type="text/css">
+ <link href="css/slick-theme.css" media="screen" rel="stylesheet" type="text/css">
  <link href="css/style.css" media="screen" rel="stylesheet" type="text/css">
 </head>
 <body>
@@ -111,8 +113,9 @@
         
   <!-- --> <!-- --> <!-- --> <!-- --> <!-- --> <!-- --> <!-- --> <!-- --> <!-- --> <!-- --> <!-- -->
   <!-- --> <!-- --> <!-- --> <!-- --> <!-- --> <!-- --> <!-- --> <!-- --> <!-- --> <!-- --> <!-- -->
-  <blockquote class="text-center" >
+  <div class="text-center" >
    
+    <!-- 1 -->
     <div class="container-quienes-somos" >
       <div class="container" >  
         <h3>¿ QUIÉNES SOMOS ?</h3>
@@ -125,53 +128,161 @@
       </div>  
     </div>  
 
+    <!-- 2 -->
     <div class="container-recomendaciones" >
-     <div class="container" >    
+     <div class="container text-left" >    
       <div class="row" >
        <div class="col-md-4">
-        <p class="titulo-recomendaciones"> RECONOCIMIENTOS </p>  
-        <div class="content-recomendaciones">dsdsdsdsdsdsdsdsddsdsdsds jldkjsld slkdj lsjkdlskj dlkjsld sjdkjs ldjls jdlksjdl s</div>
-        <!-- Boton -->
-        <a class="btn btn-link" style="color: #fff"> Ver más &rarr;</a> 
+ 		<div class="row" >
+ 	     <div class="col-md-2" >
+ 	       <object type="image/svg+xml" data="iconos/002-medal.svg" class="icon-recomendacion" style="color: #fff;" ></object>	
+ 	     </div>	
+ 	     <div class="col-md-10 class-recomendaciones" >
+ 	       <p class="titulo-recomendaciones"> RECONOCIMIENTOS </p>
+ 	       <p>Etiam aliquet urna purus. In ut odio quis</p>	
+ 	       <p>purus auctor dictum volutpat eget enim.</p>
+ 	       <p>Mauris aliquam ligula turpis, virius...</p>
+ 	     </div>	
+        </div>
        </div>
        <div class="col-md-4">
-        <p class="titulo-recomendaciones"> SOSTENIBILIDAD </p>   
-        <div class="content-recomendaciones">dsdsdsdsdsdsdsdsddsdsdsds jdjslkdjs dljskd lsjdlks djlksjd lsjdl jsldjlskj dlsj</div>    
-        <!-- Boton -->
-        <a class="btn btn-link" style="color: #fff" > Ver más &rarr;</a> 
+       	<div class="row" >
+ 	     <div class="col-md-2" >
+ 	       <object type="image/svg+xml" data="iconos/leaf.svg" class="icon-recomendacion" style="color: #fff;" ></object>
+ 	     </div>	
+ 	     <div class="col-md-10 class-recomendaciones" >
+ 	       <p class="titulo-recomendaciones"> SOSTENIBILIDAD </p>
+ 	       <p>Proin in viverra arcu. Ut vitae fermentum</p>	
+ 	       <p>torto, ac aliquam sapien. Morbi elementum</p>
+ 	       <p>lobortis sem, ac egestas ante euismid nom..</p>
+ 	     </div>	
+        </div>
        </div>
        <div class="col-md-4">
-        <p class="titulo-recomendaciones"> NUESTRO PROCESO </p>  
-        <div class="content-recomendaciones">dsdsdsdsdsdsdsdsddsdsdsds jdksljdlsk djlskj dlkjsld lsjd djlksjdljsld</div>   
-         <!-- Boton -->
-        <a class="btn btn-link" style="color: #fff"> Ver más &rarr;</a> 
-       </div>  
+        <div class="row" >
+ 	     <div class="col-md-2" >
+ 	       <object type="image/svg+xml" data="iconos/004-peanut-butter.svg" class="icon-recomendacion" style="color: #fff;" ></object>
+ 	     </div>	
+ 	     <div class="col-md-10 class-recomendaciones" >
+ 	       <p class="titulo-recomendaciones"> NUESTRO PROCESO </p>	
+ 	       <p>Nullam dignissim quam sit amet ante</p>
+ 	       <p>aliquet, vitae dictum nibh cosequat.</p>
+ 	       <p>Praesent sit amet sagittis ligula...</p>
+ 	     </div>	
+        </div>
+	   </div>  
       </div>
-     </div>    
-    </div>  
-      
-  </blockquote>
-
-  <div class="container-bg-imagen-sub" >
-    <div class="container" >
-      <div class="txt-bg-conoce-sabor1">Conoce el sabor</div>
-      <div class="txt-bg-conoce-sabor2">El sabor</div>
      </div>
-  </div>
+    </div> 
 
-  <div><div class="container" > test</div></div>
+    <!-- 3 -->
+    <div class="container-bg-imagen-sub" >
+     <div class="container" >
+      <div class="col-md-6 text-left class-pading-top" >
+        <p class="txt-bg-conoce-sabor1" > CONOCE EL SABOR </p>
+        <p class="txt-bg-conoce-sabor2" > TONNINO </p>
+        <a class="class-bottom-descubre"> Descubre aquí </a>
+      </div>	
+	 </div>
+    </div>
 
-  
+
+    <!-- 4 -->
+    <div class="container" >
+     <div class="row" >
+      <div class="col-md-4 margin-top" >
+       <!-- 1 -->
+       <p class="class-receta-1" > RECETAS A LO </p>
+       <p class="class-receta-2" > TONNINO </p>
+       <p class="class-title-receta" > Pellentesque felis sem, feugiat ut venenatis </p>
+       <p class="class-title-receta" > pulvinar a orci. Aliquam quam nulla </p>
+       <br><br>
+       <a class="class-bottom-mas"> Encontrá más platillos </a>
+
+	  </div>
+      <div class="col-md-8">
+      	<section class="regular slider">
+		 <div> 
+		  <img src="img/desayunofff.jpg">
+		  <div class="class-conteiner-interno" >
+		  	<p> LOREM IPSUM IPSUN </p>
+		  </div>	
+		 </div>
+		 <div> <img src="img/desayunofff.jpg"> </div>
+		 <div> <img src="img/desayunofff.jpg"> </div>
+		 <div> <img src="img/desayunofff.jpg"> </div>
+		</section>
+      </div>	
+     </div>
+    </div>	
+
+ </div>
+
+ <!-- Footer -->
+ <footer class="class-footer" >
+  <div class="container" >
+  	<div class="row" >
+	 <div class="col-md-4 class-tlite-text" >
+	  <div> <img src="img/logofoto.jpg" > </div>
+	  <div class="margin-bottom-15" > 
+	  	<object type="image/svg+xml" data="iconos/001-placeholder.svg" class="icon-recomendacion" style="color: #fff;width: 20px;float: left;margin-right:10px;" >
+	  	</object>
+	  	<p> San José, Costa Rica </p>
+	  </div>
+	  <div> 
+	  	<object type="image/svg+xml" data="iconos/arroba.svg" class="icon-recomendacion" style="color: #fff;width: 20px;float: left;margin-right:10px;" >
+	  	</object>
+	    <p> info@tonninotuna.com </p> 
+	  </div>
+	 </div>
+	 <div class="col-md-4" > <!-- Si se quiere poner esta seccion --> </div>
+	 <div class="col-md-4 text-center" >
+	  <p class="class-redes-sociales" > REDES SOCIALES </p>
+	  <div>
+	   <img src="img/redes1.png" style="margin-right:20px;" >
+	   <img src="img/redes2.png" >
+	  </div>	
+	 </div>
+	</div>   
+	<div class="row" >
+	 <div class="col-md-2" > 
+	  <object type="image/svg+xml" data="iconos/002-smartphone.svg" class="icon-recomendacion" style="width: 25px;float: left;margin-right:10px;" >
+	  </object>	
+	  <samp style="color:#4A4238;" > (506) </samp> <samp style="color: #fff;" > 2222-2222 </samp>
+	 </div>	
+	 <div class="col-md-10 menu-bottom" >
+	   <ul>
+	   	<li> SOSTENIBILIDAD </li>
+	   	<li> QUIÉNES SOMOS </li>
+	   	<li> PRUEBA TONNINO </li>
+	   	<li> RECETAS </li>
+	   	<li> DONDE COMPRAR </li>
+	   	<li> CONTACTENOS </li>
+	   </ul>	
+	 </div>	
+	</div>	
+  </div>  
+  <hr style="color:#414141;" />
+  <div class="text-center class-recomendaciones" style="padding-bottom:10px;color: #fff;" > @TONNINO 2019 </div>	
+ </footer>
 
 
-
-
-
-
-  
-    
-    
  <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
  <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script> 
+ <script type="text/javascript" src="js/slick.min.js"></script>
+ <script type="text/javascript" >
+ 	
+   $(document).ready(function() {
+
+  	$(".regular").slick({
+     dots: true,
+     infinite: true,
+     slidesToShow: 2,
+     slidesToScroll: 2
+    });
+
+  });
+  
+ </script>
 </body>
 </html>

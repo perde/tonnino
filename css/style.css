@@ -25,25 +25,55 @@
 .class-contect-white{ width: 75px; background: #fff; padding: 10px;margin-bottom:5px;color:#151515;font-weight:bold;font-size: 18px;text-align: center; }
 .class-compras{ background: #A48A71; padding: 10px;margin-bottom:5px;color: #fff; }
 .class-bottom-mas{ padding-top: 10px;padding-bottom: 10px; padding-left: 30px;padding-right: 30px ;border: 1px solid #A48A71;color: #636363;  }
-blockquote{ font-size: 14px; padding: 0px; margin:0px; }
+
+.class-bottom-descubre{ padding-top: 10px; padding-bottom: 10px; padding-left: 8px; padding-right: 8px; border: 1px solid #A48A71; color: #fff;  }
+
 
 .container-quienes-somos{ padding-top: 30px; padding-bottom: 30px; }
-.container-recomendaciones{  background: url('../img/shutterstock_623233079.png'); padding-top: 80px; padding-bottom:  75px; }
-
-.titulo-recomendaciones { color: #fff; }
+.container-recomendaciones{  background: url('../img/shutterstock_623233079.png'); padding-top: 50px; padding-bottom:  50px; }
 .content-recomendaciones { color: #fff; }
 
-.container-bg-imagen-sub{  background: url('../img/plato-de-atun.png'); padding-top: 450px;  width:100%; height:771px;  }
-.txt-bg-conoce-sabor1{ color: #fff; font-size: 26px; }
-.txt-bg-conoce-sabor2{ color: #fff; font-size: 30px; }
+.container-bg-imagen-sub{  background: url('../img/plato-de-atun.jpg');width:100%; height:505px;  }
+.txt-bg-conoce-sabor1{ color: #A38B71; font-size: 35px; }
+.txt-bg-conoce-sabor2{ color: #fff; font-size: 70px;margin-bottom: 90px; }
 
+/* paralos logos -- segunda seccion */
+.icon-recomendacion{ color: #A28B6E;width: 40px;  }
+.class-recomendaciones p{ color: #fff; }
+.titulo-recomendaciones { color: #A48970 !important;font-size:18px; }
+.class-pading-top{ padding-top: 80px; }
 
+/* Slider ::: Slider ::: Slider */
+.slider { width: 100%; margin: 100px auto; }
+.slick-slide { margin: 0px 20px; }
+.slick-slide img { width: 100%; }
+.slick-prev:before, .slick-next:before { color: black; }
+.slick-slide { transition: all ease-in-out .3s; opacity: .2; }
+.slick-active { opacity: .5; }
+.slick-current { opacity: 1; }
 
+/* DOCUMENTO DE DATOS */
+.class-conteiner-interno { position: absolute; color: #fff; bottom: 0px; text-align: center; }
+.class-receta-1{ color: #A38B71;font-size: 28px; }
+.class-receta-2{ color:#000;font-size: 45px; }
+.margin-top{ margin-top: 200px; }
 
+.class-title-receta{ color: #656565; }
+.class-footer{ background: #161616;padding-top:50px; }
+.class-tlite-text{ color: #fff; }
+.margin-bottom-15{ margin-bottom:25px; }
+.class-redes-sociales{ color: #fff;font-size: 20px; }
 
+.menu-bottom ul{ list-style-type: none; margin: 0; padding: 0; overflow: hidden;color: #fff;float: right;  }
+.menu-bottom li{ float: left;margin-right: 20px; }
 
+/* QUIENES SOMOS */
+.titulo-nosotros{ color: #A48A6F;font-size: 40px; }
+.titulo-nosotros-2{ color: #000;font-size: 60px;   }
+.cuadro-mision{ background:#151515;  }
+.cua-contenido{ color: #000; font-size: 30px; }
 
-
-
-
-
+.class-cuadro-lorem{ background: url('../img/quienes-somos-cuadro.jpg');height: 400px;padding-top:100px; }
+.class-lorem-top{ color: #A38A6F;font-size: 40px; }
+.class-lorem-bottom{ color: #FFF;font-size: 60px; }
+.title-cabecera{ padding-top:50px;position: absolute;width: 100%;text-align: center; }
