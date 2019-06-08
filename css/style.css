@@ -82,3 +82,7 @@
 .title-cabecera-2 .title-1{ color:#A38A6F; font-size: 40px;  }
 .title-cabecera-2 .title-2{ color:#fff; font-size: 60px; }
 
+.class-cuadro-cr{ background: url('../img/cr-footer.jpg');height: 400px;padding-top:100px; }
+.class-cuadro-top{ color: #fff;font-size: 40px; }
+.class-cuadro-bottom{ color: #000;font-size: 60px; }
+

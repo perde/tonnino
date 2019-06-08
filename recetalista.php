@@ -57,7 +57,7 @@
 
      </div>  
     </header>  
-    <img src="img/cr-page.jpg" style="width: 100%;" >  
+    <img src="img/receta-top.jpg" style="width: 100%;" >  
 
     <!-- Para la parte izquierda --> <!-- Para la parte izquierda --> <!-- Para la parte izquierda --> 
     <!-- Para la parte izquierda --> <!-- Para la parte izquierda --> <!-- Para la parte izquierda -->
@@ -66,7 +66,7 @@
         EN  
       </div>
       <div class="class-compras" >
-       <img src="iconos/shop-trolley.svg" style="width:40px;" >   COMPRAR
+       <img src="iconos/shop-trolley.svg" style="width:40px;" >   
       </div>
       <div class="class-contect-white" > 
        <img src="iconos/tuna.svg" style="width:40px;" >
@@ -74,7 +74,8 @@
     </div>
 
     <div class="title-cabecera-2" >
-     <p class="title-2" > COSTA RICA </p>
+     <p class="title-1" > AVISO DE </p>
+     <p class="title-2" > PRIVACIDAD </p>
     </div>
       
   </div>   
@@ -99,10 +100,6 @@
     <p>Tonnino is Tempting Your Taste with gourmet tuna fillets made from 100% yellowfin tuna.  Our tuna is low-mercury,  dolphin safe, wild-caught and available in eight delicious flavors made from high quality, Mediterranean-inspired ingredients. </p>
     <p>Tonnino is Tempting Your Taste with gourmet tuna fillets made from 100% yellowfin tuna.  Our tuna is low-mercury,  dolphin safe, wild-caught and available in eight delicious flavors made from high quality, Mediterranean-inspired ingredients. </p>
   </div>
-  <div class="class-cuadro-cr text-center" >
-    <p class="class-cuadro-top" > LOREM </p>
-    <p class="class-cuadro-bottom" > IPSUM DOLOR ELIT</p>
-  </div> 
   
   <!-- Footer -->
   <footer class="class-footer" >
