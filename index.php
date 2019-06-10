@@ -135,7 +135,8 @@
        <div class="col-md-4">
  		<div class="row" >
  	     <div class="col-md-2" >
- 	       <object type="image/svg+xml" data="iconos/002-medal.svg" class="icon-recomendacion" style="color: #fff;" ></object>	
+        <!-- <img id='imgsvg1' class="img_svg" src="iconos/002-medal.svg" width='40px' height='53' />  -->
+ 	       <object type="image/svg+xml"  data="iconos/002-medal.svg" class="icon-recomendacion" style="color: #fff;"  ></object>	
  	     </div>	
  	     <div class="col-md-10 class-recomendaciones" >
  	       <p class="titulo-recomendaciones"> RECONOCIMIENTOS </p>
@@ -225,7 +226,7 @@
 	 <div class="col-md-4 class-tlite-text" >
 	  <div> <img src="img/logofoto.jpg" > </div>
 	  <div class="margin-bottom-15" > 
-	  	<object type="image/svg+xml" data="iconos/001-placeholder.svg" class="icon-recomendacion" style="color: #fff;width: 20px;float: left;margin-right:10px;" >
+	  	<object type="image/svg+xml" data="iconos/001-placeholder.svg"  data-id='img1' class="icon-recomendacion" style="color: #fff;width: 20px;float: left;margin-right:10px;" >
 	  	</object>
 	  	<p> San José, Costa Rica </p>
 	  </div>
@@ -280,6 +281,9 @@
      slidesToShow: 2,
      slidesToScroll: 2
     });
+
+
+
 
   });
   
