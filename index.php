@@ -202,16 +202,16 @@
 	  </div>
       <div class="col-md-8">
       	<section class="regular slider">
-		 <div> 
-		  <img src="img/desayunofff.jpg">
-		  <div class="class-conteiner-interno" >
-		  	<p> LOREM IPSUM IPSUN </p>
-		  </div>	
-		 </div>
-		 <div> <img src="img/desayunofff.jpg"> </div>
-		 <div> <img src="img/desayunofff.jpg"> </div>
-		 <div> <img src="img/desayunofff.jpg"> </div>
-		</section>
+    		 <div> 
+    		  <img src="img/desayunofff.jpg">
+    		  <div class="class-conteiner-interno" >
+    		  	<p> LOREM IPSUM IPSUN </p>
+    		  </div>	
+    		 </div>
+    		 <div> <img src="img/desayunofff.jpg"> </div>
+    		 <div> <img src="img/desayunofff.jpg"> </div>
+    		 <div> <img src="img/desayunofff.jpg"> </div>
+    		</section>
       </div>	
      </div>
     </div>	

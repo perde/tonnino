@@ -144,3 +144,32 @@ p{ font-family: 'FontAwesome5BrandsRegular'; }
 .class-cuadro-top{ color: #fff;font-size: 40px; }
 .class-cuadro-bottom{ color: #000;font-size: 60px; }
 
+.title-cabecera-2-3{ padding-top:50px;position: absolute;width: 100%;text-align: left;z-index: 80;top: 25%;color: #fff; font-size: 50px;padding-left: 100px; }
+.title-cabecera-2-3 .title-1{ color:#A38A6F; font-size: 40px; font-family: 'EdoSZ'; }
+.title-cabecera-2-3 .title-2{ color:#fff; font-size: 50px; font-family: 'EdoSZ';}
+.input-group-addon{ background: #A48A71; }
+
+.class-input-receta{ height: 42px; } 
+.class-input-registro{ padding: 0px; width: 40px; padding-top: 2px; padding-bottom: 2px; }
+
+/* PADIN REGISTROS ::: PADIN REGISTRO */
+
+.class-conteiner-recetas{ padding-left: 20px; padding-right:20px; }
+.regular-receta{ margin-top: 0px; }
+.class-receta-reciente{ margin-top: 50px; }
+
+.class-receta-reciente .class-title-1{ color: #A38B71; font-size: 48px; font-family: 'EdoSZ';line-height: 45px; } 
+.class-receta-reciente .class-title-2{ color: #000; font-size: 60px; font-family: 'EdoSZ';line-height: 45px; }
+
+.class-404{ 
+ background: url(../img/404.png) no-repeat center center fixed; 
+ -webkit-background-size: cover;
+ -moz-background-size: cover;
+ -o-background-size: cover;
+ background-size: cover;
+}
+
+.center-conteiner{ text-align: center; }
+.class-text-404{ color: #fff; font-size: 300px; font-family: 'EdoSZ'; margin-top:0px; margin-bottom: 0px; }
+.class-text-busca{ font-family: 'EdoSZ'; color: #A48A71; font-size: 40px; margin-top: 0px; margin-bottom: 0px; }
+.class-text-text1{ color: #fff; font-size: 17px; margin: 10px; }

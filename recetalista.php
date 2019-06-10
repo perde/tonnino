@@ -73,32 +73,81 @@
       </div>
     </div>
 
-    <div class="title-cabecera-2" >
-     <p class="title-1" > AVISO DE </p>
-     <p class="title-2" > PRIVACIDAD </p>
+    <div class="title-cabecera-2-3" >
+     <p class="title-1" > RECETAS A LO </p>
+     <p class="title-2" > TONNINO </p>
     </div>
       
   </div>   
         
-  <!-- --> <!-- --> <!-- --> <!-- --> <!-- --> <!-- --> <!-- --> <!-- --> <!-- --> <!-- --> <!-- -->
-  <!-- --> <!-- --> <!-- --> <!-- --> <!-- --> <!-- --> <!-- --> <!-- --> <!-- --> <!-- --> <!-- -->
+ 
   <div class="container" >
-    <br><br>
-    <!-- CONTENEDOR ::: CONTENEDOR ::: CONTENEDOR --> <!-- CONTENEDOR ::: CONTENEDOR ::: CONTENEDOR -->
-    <p>Tonnino is Tempting Your Taste with gourmet tuna fillets made from 100% yellowfin tuna.  Our tuna is low-mercury,  dolphin safe, wild-caught and available in eight delicious flavors made from high quality, Mediterranean-inspired ingredients. </p>
-    <p>Tonnino is Tempting Your Taste with gourmet tuna fillets made from 100% yellowfin tuna.  Our tuna is low-mercury,  dolphin safe, wild-caught and available in eight delicious flavors made from high quality, Mediterranean-inspired ingredients. </p>
-    <p>Tonnino is Tempting Your Taste with gourmet tuna fillets made from 100% yellowfin tuna.  Our tuna is low-mercury,  dolphin safe, wild-caught and available in eight delicious flavors made from high quality, Mediterranean-inspired ingredients. </p>
-    <p>Tonnino is Tempting Your Taste with gourmet tuna fillets made from 100% yellowfin tuna.  Our tuna is low-mercury,  dolphin safe, wild-caught and available in eight delicious flavors made from high quality, Mediterranean-inspired ingredients. </p>
-    <p>Tonnino is Tempting Your Taste with gourmet tuna fillets made from 100% yellowfin tuna.  Our tuna is low-mercury,  dolphin safe, wild-caught and available in eight delicious flavors made from high quality, Mediterranean-inspired ingredients. </p>
-    <p>Tonnino is Tempting Your Taste with gourmet tuna fillets made from 100% yellowfin tuna.  Our tuna is low-mercury,  dolphin safe, wild-caught and available in eight delicious flavors made from high quality, Mediterranean-inspired ingredients. </p>
-    <p>Tonnino is Tempting Your Taste with gourmet tuna fillets made from 100% yellowfin tuna.  Our tuna is low-mercury,  dolphin safe, wild-caught and available in eight delicious flavors made from high quality, Mediterranean-inspired ingredients. </p>
-    <p>Tonnino is Tempting Your Taste with gourmet tuna fillets made from 100% yellowfin tuna.  Our tuna is low-mercury,  dolphin safe, wild-caught and available in eight delicious flavors made from high quality, Mediterranean-inspired ingredients. </p>
-    <p>Tonnino is Tempting Your Taste with gourmet tuna fillets made from 100% yellowfin tuna.  Our tuna is low-mercury,  dolphin safe, wild-caught and available in eight delicious flavors made from high quality, Mediterranean-inspired ingredients. </p>
-    <p>Tonnino is Tempting Your Taste with gourmet tuna fillets made from 100% yellowfin tuna.  Our tuna is low-mercury,  dolphin safe, wild-caught and available in eight delicious flavors made from high quality, Mediterranean-inspired ingredients. </p>
-    <p>Tonnino is Tempting Your Taste with gourmet tuna fillets made from 100% yellowfin tuna.  Our tuna is low-mercury,  dolphin safe, wild-caught and available in eight delicious flavors made from high quality, Mediterranean-inspired ingredients. </p>
-    <p>Tonnino is Tempting Your Taste with gourmet tuna fillets made from 100% yellowfin tuna.  Our tuna is low-mercury,  dolphin safe, wild-caught and available in eight delicious flavors made from high quality, Mediterranean-inspired ingredients. </p>
-    <p>Tonnino is Tempting Your Taste with gourmet tuna fillets made from 100% yellowfin tuna.  Our tuna is low-mercury,  dolphin safe, wild-caught and available in eight delicious flavors made from high quality, Mediterranean-inspired ingredients. </p>
-    <p>Tonnino is Tempting Your Taste with gourmet tuna fillets made from 100% yellowfin tuna.  Our tuna is low-mercury,  dolphin safe, wild-caught and available in eight delicious flavors made from high quality, Mediterranean-inspired ingredients. </p>
+    <br>
+    <div class="row" >
+     <div class="col-md-12" > 
+      <div class="form-group">        
+        <div class="input-group">
+          <input type="text" class="form-control class-input-receta" id="exampleInputAmount" placeholder="Selecciona una de nuestras secciones de recetas para encontrar un platillo para cada momento del día" >
+          <div class="input-group-addon" style="padding: 0px;" >
+           <button type="submit" class="input-group-addon class-input-registro" >
+            <!-- search.svg -->
+            <object type="image/svg+xml" data="iconos/search.svg" class="icon-recomendacion" style="width: 30px;" ></object> 
+           </button>
+          </div>
+        </div>
+      </div>
+     </div>
+
+     <div class="col-md-12" >
+      <div class="row" >
+       <div class="col-md-3" > <img src="img/receta-01.jpg" style="width:100%;" > </div>
+       <div class="col-md-3" > <img src="img/receta-02.jpg" style="width:100%;" > </div>
+       <div class="col-md-3" > <img src="img/receta-03.jpg" style="width:100%;" > </div>
+       <div class="col-md-3" > <img src="img/receta-04.jpg" style="width:100%;" > </div>   
+      </div>  
+     </div> 
+
+     <div class="col-md-12 class-receta-reciente" > 
+       <div>
+        <p class="class-title-1" > RECETAS </p>
+        <p class="class-title-2" > RECIENTES </p>
+       </div>
+       <div  class="class-conteiner-recetas" >
+        <section class="regular-receta slider">
+         <div> 
+          <img src="img/desayunofff.jpg">
+          <div class="class-conteiner-interno" >
+            <p> LOREM IPSUM IPSUN </p>
+          </div>  
+         </div>
+         <div> <img src="img/desayunofff.jpg"> </div>
+         <div> <img src="img/desayunofff.jpg"> </div>
+         <div> <img src="img/desayunofff.jpg"> </div>
+        </section>
+       </div> 
+     </div> 
+
+     <div class="col-md-12 class-receta-reciente" > 
+       <div>
+        <p class="class-title-1" > LISTA DE </p>
+        <p class="class-title-2" > DESAYUNOS </p>
+       </div>
+       <div  class="class-conteiner-recetas" >
+        <section class="regular-receta slider">
+         <div> 
+          <img src="img/desayunofff.jpg">
+          <div class="class-conteiner-interno" >
+            <p> LOREM IPSUM IPSUN </p>
+          </div>  
+         </div>
+         <div> <img src="img/desayunofff.jpg"> </div>
+         <div> <img src="img/desayunofff.jpg"> </div>
+         <div> <img src="img/desayunofff.jpg"> </div>
+        </section>
+       </div> 
+     </div> 
+     <br>
+    </div> 
   </div>
   
   <!-- Footer -->
@@ -157,11 +206,11 @@
  	
    $(document).ready(function() {
 
-  	$(".regular").slick({
+  	$(".regular-receta").slick({
      dots: true,
      infinite: true,
-     slidesToShow: 2,
-     slidesToScroll: 2
+     slidesToShow: 3,
+     slidesToScroll: 3
     });
 
   });
