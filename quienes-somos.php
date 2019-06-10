@@ -71,7 +71,7 @@
     </div>
 
     <div class="title-cabecera" >
-     <p> QUIÉNES SOMOS </p>
+     <p class="fontTitle"> QUIÉNES SOMOS </p>
     </div>
 
       
@@ -124,8 +124,8 @@
     </div>
   </div>
   <div class="class-cuadro-lorem text-center" >
-    <p class="class-lorem-top" > LOREM </p>
-    <p class="class-lorem-bottom" > IPSUM DOLOR ELIT</p>
+    <p class="class-lorem-top fontTitle" > LOREM </p>
+    <p class="class-lorem-bottom fontTitle" > IPSUM DOLOR ELIT</p>
   </div> 
   <!-- Footer -->
   <footer class="class-footer" >
