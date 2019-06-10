@@ -135,8 +135,8 @@
        <div class="col-md-4">
  		<div class="row" >
  	     <div class="col-md-2" >
-        <!-- <img id='imgsvg1' class="img_svg" src="iconos/002-medal.svg" width='40px' height='53' />  -->
- 	       <object type="image/svg+xml"  data="iconos/002-medal.svg" class="icon-recomendacion" style="color: #fff;"  ></object>	
+        <img id='imgsvg1' class="img_svg" src="iconos/medalla.png" width='40px' height='53px' />  
+ 	       <!-- <object type="image/svg+xml"  data="iconos/002-medal.svg" class="icon-recomendacion" style="color: #fff;"  ></object>	 -->
  	     </div>	
  	     <div class="col-md-10 class-recomendaciones" >
  	       <p class="titulo-recomendaciones"> RECONOCIMIENTOS </p>
@@ -149,7 +149,8 @@
        <div class="col-md-4">
        	<div class="row" >
  	     <div class="col-md-2" >
- 	       <object type="image/svg+xml" data="iconos/leaf.svg" class="icon-recomendacion" style="color: #fff;" ></object>
+        <img id='imgsvg1' class="img_svg" src="iconos/leaf.png" width='40px' height='73px' />  
+ 	       <!-- <object type="image/svg+xml" data="iconos/leaf.svg" class="icon-recomendacion" style="color: #fff;" ></object> -->
  	     </div>	
  	     <div class="col-md-10 class-recomendaciones" >
  	       <p class="titulo-recomendaciones"> SOSTENIBILIDAD </p>
@@ -162,7 +163,8 @@
        <div class="col-md-4">
         <div class="row" >
  	     <div class="col-md-2" >
- 	       <object type="image/svg+xml" data="iconos/004-peanut-butter.svg" class="icon-recomendacion" style="color: #fff; " ></object>
+        <img id='imgsvg1' class="img_svg" src="iconos/peanut-butter.png" width='39.66px' height='39px' />  
+ 	       <!-- <object type="image/svg+xml" data="iconos/004-peanut-butter.svg" class="icon-recomendacion" style="color: #fff; " ></object> -->
  	     </div>	
  	     <div class="col-md-10 class-recomendaciones" >
  	       <p class="titulo-recomendaciones"> NUESTRO PROCESO </p>	
