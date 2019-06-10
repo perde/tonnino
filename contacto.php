@@ -122,41 +122,53 @@
        <div class="row class-margin-bottom-20" >
         <div class="col-md-6" >
           <label for="disabledTextInput">Nombre*</label>
-          <input type="text" id="nombre" name="nombre" class="form-control" placeholder="Nombre" >
+          <input type="text" id="nombre" name="nombre" class="form-control class-text-input" placeholder="Nombre" >
         </div>
         <div class="col-md-6" >
           <label for="disabledTextInput">Apellido*</label>
-          <input type="text" id="apellido" name="apellido" class="form-control" placeholder="Apellido" >
+          <input type="text" id="apellido" name="apellido" class="form-control class-text-input" placeholder="Apellido" >
         </div>  
        </div>
        <div class="row class-margin-bottom-20" >
         <div class="col-md-6" >
           <label for="disabledTextInput">Teléfono*</label>
-          <input type="text" id="telefono" name="telefono" class="form-control" placeholder="Nombre" >
+          <input type="text" id="telefono" name="telefono" class="form-control class-text-input" placeholder="Nombre" >
         </div>
         <div class="col-md-6" >
           <label for="disabledTextInput">País residencia*</label>
-          <input type="text" id="pais" name="pais" class="form-control" placeholder="Apellido" >
+          <input type="text" id="pais" name="pais" class="form-control class-text-input" placeholder="Apellido" >
         </div>  
        </div>
        <div class="row class-margin-bottom-20" >
         <div class="col-md-6" >
           <label for="disabledTextInput">Lugar residencia*</label>
-          <input type="text" id="lugar_residencia" name="lugar_residencia" class="form-control" placeholder="Nombre" >
+          <input type="text" id="lugar_residencia" name="lugar_residencia" class="form-control class-text-input" placeholder="Nombre" >
         </div>
         <div class="col-md-6" >
           <label for="disabledTextInput">Email*</label>
-          <input type="text" id="email" name="email" class="form-control" placeholder="Apellido" >
+          <input type="text" id="email" name="email" class="form-control class-text-input" placeholder="Apellido" >
         </div>  
        </div>
        <!-- --> <!-- --> <!-- -->
        <div class="row class-margin-bottom-20" >
-        <div class="col-md-6" >
-          <label for="disabledTextInput">Adjunta CV</label>
-          
+        <div class="col-md-12" >
+          <div>
+           <label for="disabledTextInput">Adjunta CV</label>
+           <!-- --> <!-- -->  
+           <input type="file" id="real-file" hidden="hidden" style=" visibility: hidden;" />
+           <button type="button" id="custom-button"> Examinar </button>
+           <span id="custom-text">No se a seleccionado ningún archivo.</span>
+           <!-- --> <!-- -->
+          </div>
+          <div> Formatos PDF|DOCX|PNG|JPG - Máximo 4MB </div> 
         </div> 
        </div> 
-
+       <!-- --> <!-- --> <!-- -->
+       <div class="row class-margin-bottom-20" >
+        <div class="col-md-12 text-center" >
+           <button type="button" class="btn btn-danger-marron">Enviar</button>
+        </div>  
+       </div> 
       </div> 
     </div>
 
@@ -216,19 +228,24 @@
  <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
  <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script> 
  <script type="text/javascript" src="js/slick.min.js"></script>
- <script type="text/javascript" >
- 	
-   $(document).ready(function() {
+ <script type="text/javascript" > 	
+  const realFileBtn = document.getElementById("real-file");
+  const customBtn = document.getElementById("custom-button");
+  const customTxt = document.getElementById("custom-text");
 
-  	$(".regular").slick({
-     dots: true,
-     infinite: true,
-     slidesToShow: 2,
-     slidesToScroll: 2
-    });
-
+  customBtn.addEventListener("click", function() {
+  realFileBtn.click();
   });
-  
+
+  realFileBtn.addEventListener("change", function() {
+  if (realFileBtn.value) {
+  customTxt.innerHTML = realFileBtn.value.match(
+  /[\/\\]([\w\d\s\.\-\(\)]+)$/
+  )[1];
+  } else {
+  customTxt.innerHTML = "No file chosen, yet.";
+  }
+  });
  </script>
 </body>
 </html>

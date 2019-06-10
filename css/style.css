@@ -191,5 +191,15 @@ path:hover {
 .class-cont-trabaja-1{ padding:8px;border: 2px solid #A28871;color:#000;text-align: left; }
 
 
-.class-conteiner-upsum{ padding-left: 100px; width: 100%; padding-right: 100px; display: table;margin-bottom: 20px; }
+.class-conteiner-upsum{ padding-left: 100px; width: 100%; padding-right: 100px; display: table;margin-bottom: 20px; margin-top: 40px; }
 .class-margin-bottom-20{ margin-bottom: 20px; }
+
+
+/* ADJUNTAR CV */ /* ADJUNTAR CV */ /* ADJUNTAR CV */
+#custom-button { padding: 10px; color: #fff; background-color:#A28871;border: 0px solid #A28871;cursor: pointer; }
+/* #custom-button:hover { background-color: #00b28f; } */
+#custom-text{ margin-left: 10px; font-family: sans-serif; color: #aaa; }
+
+.btn-danger-marron{ background:#A28871;padding:15px;color: #fff; padding-left: 40px;padding-right: 40px;border-radius:0px;   }
+.btn-danger-marron:hover{ color: #fff; }
+.class-text-input{ height: 42px; }
