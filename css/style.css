@@ -186,4 +186,9 @@ path:hover {
 
 /* CONTACTO ::: CONTACTO ::: CONTACTO */
 
+.class-cont-trabaja{ padding:10px;background:#A28871;color:#fff;text-align: left; }
+.class-cont-trabaja-1{ padding:8px;border: 2px solid #A28871;color:#000;text-align: left; }
 
+
+.class-conteiner-upsum{ padding-left: 100px; width: 100%; padding-right: 100px; display: table;margin-bottom: 20px; }
+.class-margin-bottom-20{ margin-bottom: 20px; }

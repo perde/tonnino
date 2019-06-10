@@ -92,9 +92,76 @@
       <p> dolore magna aliquam erat volutpar. Ut wisi enim ad minim veniam, quis nostrud. Integer nec facilisis erat, eu </p>
       <p> dignissim lacus. Sed eu blandit orci, eget consequat eros. Donec porta accumsan augue eu retrum. </p>
     </div>
-    <div class="text-center" >
+    <div class="text-center class-conteiner-upsum" >
+     <div class="col-md-4" >
+      <div class="class-cont-trabaja" > 
+       <object type="image/svg+xml" data="iconos/001-wrench.svg" class="icon-recomendacion" style="color: #fff;width: 20px;float: left;margin-right:10px;" > </object>
+       Trabaja con nosotros
+      </div>
+     </div>
+     <div class="col-md-4" >
+      <div class="class-cont-trabaja-1" > 
+       <object type="image/svg+xml" data="iconos/001-wrench.svg" class="icon-recomendacion" style="color: #fff;width: 20px;float: left;margin-right:10px;" > </object>
+       ¿ Quieres vender tonnino ?
+      </div>
+     </div>
+     <div class="col-md-4" >
+      <div class="class-cont-trabaja-1" > 
+       <object type="image/svg+xml" data="iconos/003-headset.svg" class="icon-recomendacion" style="color: #fff;width: 20px;float: left;margin-right:10px;" > </object>
+       Atención al cliente
+      </div>
+     </div>
+    </div> 
 
-    </div>  
+    <!-- CONTACTO ::: CONTACTO :::: CONTACTO --> <!-- CONTACTO :::: CONTACTO ::: CONTACTO -->
+    <!-- CONTACTO ::: CONTACTO :::: CONTACTO --> <!-- CONTACTO :::: CONTACTO ::: CONTACTO -->
+
+    <div>
+      <div class="col-md-2" > </div>
+      <div class="col-md-8" >
+       <div class="row class-margin-bottom-20" >
+        <div class="col-md-6" >
+          <label for="disabledTextInput">Nombre*</label>
+          <input type="text" id="nombre" name="nombre" class="form-control" placeholder="Nombre" >
+        </div>
+        <div class="col-md-6" >
+          <label for="disabledTextInput">Apellido*</label>
+          <input type="text" id="apellido" name="apellido" class="form-control" placeholder="Apellido" >
+        </div>  
+       </div>
+       <div class="row class-margin-bottom-20" >
+        <div class="col-md-6" >
+          <label for="disabledTextInput">Teléfono*</label>
+          <input type="text" id="telefono" name="telefono" class="form-control" placeholder="Nombre" >
+        </div>
+        <div class="col-md-6" >
+          <label for="disabledTextInput">País residencia*</label>
+          <input type="text" id="pais" name="pais" class="form-control" placeholder="Apellido" >
+        </div>  
+       </div>
+       <div class="row class-margin-bottom-20" >
+        <div class="col-md-6" >
+          <label for="disabledTextInput">Lugar residencia*</label>
+          <input type="text" id="lugar_residencia" name="lugar_residencia" class="form-control" placeholder="Nombre" >
+        </div>
+        <div class="col-md-6" >
+          <label for="disabledTextInput">Email*</label>
+          <input type="text" id="email" name="email" class="form-control" placeholder="Apellido" >
+        </div>  
+       </div>
+       <!-- --> <!-- --> <!-- -->
+       <div class="row class-margin-bottom-20" >
+        <div class="col-md-6" >
+          <label for="disabledTextInput">Adjunta CV</label>
+          
+        </div> 
+       </div> 
+
+      </div> 
+    </div>
+
+
+
   </div>
   
   <!-- Footer -->
