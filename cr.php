@@ -134,7 +134,7 @@
 	 <div class="col-md-2" > 
 	  <object type="image/svg+xml" data="iconos/002-smartphone.svg" class="icon-recomendacion" style="width: 25px;float: left;margin-right:10px;" >
 	  </object>	
-	  <samp style="color:#4A4238;" > (506) </samp> <samp style="color: #fff;" > 2222-2222 </samp>
+	  <samp style="color:#4A4238;"class="textoSencillo" > (506) </samp> <samp style="color: #fff;" class="textoSencillo"> 2222-2222 </samp>
 	 </div>	
 	 <div class="col-md-10 menu-bottom" >
 	   <ul>
