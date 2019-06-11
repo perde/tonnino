@@ -228,14 +228,16 @@
 	 <div class="col-md-4 class-tlite-text" >
 	  <div> <img src="img/logofoto.jpg" > </div>
 	  <div class="margin-bottom-15" > 
-	  	<object type="image/svg+xml" data="iconos/001-placeholder.svg"  data-id='img1' class="icon-recomendacion" style="color: #fff;width: 20px;float: left;margin-right:10px;" >
-	  	</object>
-	  	<p> San José, Costa Rica </p>
+       
+	  	<!-- <object type="image/svg+xml" data="iconos/001-placeholder.svg"  data-id='img1' class="icon-recomendacion" style="color: #fff;width: 20px;float: left;margin-right:10px;" >  
+	  	</object>-->
+	  	<p><img class="img_svg" src="iconos/placeholder.png" width='16px'/>  San José, Costa Rica </p>
 	  </div>
-	  <div> 
-	  	<object type="image/svg+xml" data="iconos/arroba.svg" class="icon-recomendacion" style="color: #fff;width: 20px;float: left;margin-right:10px;" >
-	  	</object>
-	    <p> info@tonninotuna.com </p> 
+	  <div > 
+       
+	  	<!-- <object type="image/svg+xml" data="iconos/arroba.svg" class="icon-recomendacion" style="color: #fff;width: 20px;float: left;margin-right:10px;" > 
+	  	</object>-->
+	    <p><img class="img_svg" src="iconos/arroba.png" width='17px'/> info@tonninotuna.com </p> 
 	  </div>
 	 </div>
 	 <div class="col-md-4" > <!-- Si se quiere poner esta seccion --> </div>
@@ -249,8 +251,9 @@
 	</div>   
 	<div class="row" >
 	 <div class="col-md-2" > 
-	  <object type="image/svg+xml" data="iconos/002-smartphone.svg" class="icon-recomendacion" style="width: 25px;float: left;margin-right:10px;" >
-	  </object>	
+    <img class="img_svg" src="iconos/telefono.png" width='18px'/> 
+	  <!-- <object type="image/svg+xml" data="iconos/002-smartphone.svg" class="icon-recomendacion" style="width: 25px;float: left;margin-right:10px;" >
+	  </object>	 -->
 	  <samp style="color:#4A4238;" class="textoSencillo" > (506) </samp> <samp class="textoSencillo" style="color: #fff;" > 2222-2222 </samp>
 	 </div>	
 	 <div class="col-md-10 menu-bottom" >
