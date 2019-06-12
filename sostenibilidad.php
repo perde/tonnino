@@ -8,6 +8,9 @@
  <link href="css/slick.css" media="screen" rel="stylesheet" type="text/css">
  <link href="css/slick-theme.css" media="screen" rel="stylesheet" type="text/css">
  <link href="css/style.css" media="screen" rel="stylesheet" type="text/css">
+ <style type="text/css">
+  .slick-slide img { width: auto; }
+ </style>
 </head>
 <body>
  
@@ -15,7 +18,7 @@
     
     <header>
      <div class="col-md-2 padding-top-0" style="text-align:center;" >
-      <img src="img/logom.png" class="logo-general" style="width: 114px; margin-top: 2px;" />   
+      <img src="img/logom.png" class="logo-general" style="width: 114px; margin-top: 2px;" />  
       <hr class="class-padding-bottom" />
      </div>
      <div class="col-md-10 padding-top-0 " >
@@ -52,12 +55,9 @@
          </ul>   
         </div><!-- /.navbar-collapse -->
        </nav> 
-
-     
-
      </div>  
     </header>  
-    <img src="img/header-contacto.jpg" style="width: 100%;" >  
+    <img src="img/home-sostenibilidad.jpg" style="width: 100%;" >  
 
     <!-- Para la parte izquierda --> <!-- Para la parte izquierda --> <!-- Para la parte izquierda --> 
     <!-- Para la parte izquierda --> <!-- Para la parte izquierda --> <!-- Para la parte izquierda -->
@@ -73,9 +73,10 @@
       </div>
     </div>
 
-    <div class="title-cabecera-2" >
-     <p class="title-2" > CONTACTO </p>
+    <div class="title-cabecera" >
+     <p class="fontTitle"> SOSTENIBILIDAD </p>
     </div>
+
       
   </div>   
         
@@ -83,99 +84,81 @@
   <!-- --> <!-- --> <!-- --> <!-- --> <!-- --> <!-- --> <!-- --> <!-- --> <!-- --> <!-- --> <!-- -->
   <div class="container" >
     <br><br>
-    <div class="text-center" >
-      <p class="titulo-nosotros" > LOREM </p>
-      <p class="titulo-nosotros-2" > IPSUM DOLOR </p>
-    </div>
-    <div class="text-center" >
-      <p> Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet </p>
-      <p> dolore magna aliquam erat volutpar. Ut wisi enim ad minim veniam, quis nostrud. Integer nec facilisis erat, eu </p>
-      <p> dignissim lacus. Sed eu blandit orci, eget consequat eros. Donec porta accumsan augue eu retrum. </p>
-    </div>
-    <div class="text-center class-conteiner-upsum" >
-     <div class="col-md-4" >
-      <div class="class-cont-trabaja" > 
-       <object type="image/svg+xml" data="iconos/001-wrench.svg" class="icon-recomendacion" style="color: #fff;width: 20px;float: left;margin-right:10px;" > </object>
-       Trabaja con nosotros
-      </div>
-     </div>
-     <div class="col-md-4" >
-      <div class="class-cont-trabaja-1" > 
-       <object type="image/svg+xml" data="iconos/001-wrench.svg" class="icon-recomendacion" style="color: #fff;width: 20px;float: left;margin-right:10px;" > </object>
-       ¿ Quieres vender tonnino ?
-      </div>
-     </div>
-     <div class="col-md-4" >
-      <div class="class-cont-trabaja-1" > 
-       <object type="image/svg+xml" data="iconos/003-headset.svg" class="icon-recomendacion" style="color: #fff;width: 20px;float: left;margin-right:10px;" > </object>
-       Atención al cliente
-      </div>
-     </div>
-    </div> 
+    <!-- CONTENEDOR ::: CONTENEDOR ::: CONTENEDOR --> <!-- CONTENEDOR ::: CONTENEDOR ::: CONTENEDOR -->
+    <div class="text-center" > 
+      <!-- <p class="titulo-nosotros" > NUESTRO </p> -->
+      <div> <img src="img/play-sostenibilidad.jpg" > </div>
 
-    <!-- CONTACTO ::: CONTACTO :::: CONTACTO --> <!-- CONTACTO :::: CONTACTO ::: CONTACTO -->
-    <!-- CONTACTO ::: CONTACTO :::: CONTACTO --> <!-- CONTACTO :::: CONTACTO ::: CONTACTO -->
 
-    <div>
-      <div class="col-md-2" > </div>
-      <div class="col-md-8" >
-       <div class="row class-margin-bottom-20" >
-        <div class="col-md-6" >
-          <label for="disabledTextInput">Nombre*</label>
-          <input type="text" id="nombre" name="nombre" class="form-control class-text-input" placeholder="Nombre" >
+      <p class="titulo-sostenibilidad-2" > LOREM IPSUM DOLOR </p>
+      <div class="margin-bottom-15" style="margin-bottom: 50px;" >
+       <p> Lorem ipsum doloe sit amet, consectetuer adipiscing elit, sed diam nonummy nibj euismod tincidunt ut laoreet </p>
+       <p> dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud. Integer nec facilisis arat, eu </p>
+       <p> dignissim lacus. Sed eu blandit orci, eget consequat eros. Donec porta accumsan augue eu rutrum  </p>
+      </div>  
+
+      <!-- CUADROS - CUADROS - CUADROS -->
+      <div class="container" style="padding-bottom:90px;" >
+       <div class="col-md-4" >
+        <div class="cuadro-mision" style="height: 270px;" > 
+         <img src="img/sostenibilidad-1.jpg" style="width: 100%;" > 	
         </div>
-        <div class="col-md-6" >
-          <label for="disabledTextInput">Apellido*</label>
-          <input type="text" id="apellido" name="apellido" class="form-control class-text-input" placeholder="Apellido" >
-        </div>  
+        <br>
+        <p class="cua-contenido-sos-0" > MISIÓN </p>
+        <p class="cua-contenido-sos-1" > AMBIENTE </p>
+        <p> Suspendisse eget mauris eget sem scelerisque </p>
+        <p> porta eu suscipit augue. Fusce at nibh vel dolor </p>
+        <p> gravida volutpat eu at augue. Vivamus a risus </p>
+        <p> vitae odio vulputate feugiat nom luctus lacus. </p>
+        <p> Aliquam vitae posuere magna. </p>
        </div>
-       <div class="row class-margin-bottom-20" >
-        <div class="col-md-6" >
-          <label for="disabledTextInput">Teléfono*</label>
-          <input type="text" id="telefono" name="telefono" class="form-control class-text-input" placeholder="Nombre" >
+       <div class="col-md-4" >
+        <div class="cuadro-mision" style="height: 270px;" >
+         <img src="img/sostenibilidad-2.jpg" style="width: 100%;" > 
         </div>
-        <div class="col-md-6" >
-          <label for="disabledTextInput">País residencia*</label>
-          <input type="text" id="pais" name="pais" class="form-control class-text-input" placeholder="Apellido" >
-        </div>  
+        <br>
+        <p class="cua-contenido-sos-0" > PESCA </p>
+        <p class="cua-contenido-sos-1" > RESPONSABLE </p>
+        <p> Suspendisse eget mauris eget sem scelerisque </p>
+        <p> porta eu suscipit augue. Fusce at nibh vel dolor </p>
+        <p> gravida volutpat eu at augue. Vivamus a risus </p>
+        <p> vitae odio vulputate feugiat nom luctus lacus. </p>
+        <p> Aliquam vitae posuere magna. </p>
        </div>
-       <div class="row class-margin-bottom-20" >
-        <div class="col-md-6" >
-          <label for="disabledTextInput">Lugar residencia*</label>
-          <input type="text" id="lugar_residencia" name="lugar_residencia" class="form-control class-text-input" placeholder="Nombre" >
+       <div class="col-md-4" >
+        <div class="cuadro-mision" style="height: 270px;" > 
+         <img src="img/sostenibilidad-1.jpg" style="width: 100%;" > 	
         </div>
-        <div class="col-md-6" >
-          <label for="disabledTextInput">Email*</label>
-          <input type="text" id="email" name="email" class="form-control class-text-input" placeholder="Apellido" >
-        </div>  
-       </div>
-       <!-- --> <!-- --> <!-- -->
-       <div class="row class-margin-bottom-20" >
-        <div class="col-md-12" >
-          <div>
-           <label for="disabledTextInput">Adjunta CV</label>
-           <!-- --> <!-- -->  
-           <input type="file" id="real-file" hidden="hidden" style=" visibility: hidden;" />
-           <button type="button" id="custom-button"> Examinar </button>
-           <span id="custom-text">No se a seleccionado ningún archivo.</span>
-           <!-- --> <!-- -->
-          </div>
-          <div> Formatos PDF|DOCX|PNG|JPG - Máximo 4MB </div> 
-        </div> 
+        <br>
+        <p class="cua-contenido-sos-0" >  </p>
+        <p class="cua-contenido-sos-1" > SOCIAL </p>
+        <p> Suspendisse eget mauris eget sem scelerisque </p>
+        <p> porta eu suscipit augue. Fusce at nibh vel dolor </p>
+        <p> gravida volutpat eu at augue. Vivamus a risus </p>
+        <p> vitae odio vulputate feugiat nom luctus lacus. </p>
+        <p> Aliquam vitae posuere magna. </p>
        </div> 
-       <!-- --> <!-- --> <!-- -->
-       <div class="row class-margin-bottom-20" >
-        <div class="col-md-12 text-center" >
-           <button type="button" class="btn btn-danger-marron">Enviar</button>
-        </div>  
-       </div> 
-      </div> 
+      </div>
     </div>
-
-
-
   </div>
-  
+  <div class="class-cuadro-lorem-2 text-center" >
+    <p class="class-lorem-bottom fontTitle" > CERTIFICACIONES </p>
+    <!-- --> <!-- --> <!-- --> <!-- --> <!-- --> <!-- --> <!-- --> <!-- -->
+    <div class="container" >
+	    <section class="regular slider" style="margin: 0px;" >
+		 <div> <img src="img/logo11.png" style="width: 100%;" > </div>
+		 <div> <img src="img/logo1.png"  style="height:138px;"  > </div>
+		 <div> <img src="img/logo2.png" style="height:138px;" > </div>
+		 <div> <img src="img/logo3.png" style="height:138px;" > </div>
+
+		 <div> <img src="img/logo11.png" style="width: 100%" > </div>
+		 <div> <img src="img/logo1.png" style="height:138px;" > </div>
+		 <div> <img src="img/logo2.png" style="height:138px;" > </div>
+		 <div> <img src="img/logo3.png" style="height:138px;" > </div>
+		</section>
+	</div>	
+    <!-- --> <!-- --> <!-- --> <!-- --> <!-- --> <!-- --> <!-- --> <!-- -->
+  </div> 
   <!-- Footer -->
   <footer class="class-footer" >
   <div class="container" >
@@ -206,7 +189,7 @@
 	 <div class="col-md-2" > 
 	  <object type="image/svg+xml" data="iconos/002-smartphone.svg" class="icon-recomendacion" style="width: 25px;float: left;margin-right:10px;" >
 	  </object>	
-	  <samp style="color:#4A4238;" > (506) </samp> <samp style="color: #fff;" > 2222-2222 </samp>
+	  <samp style="color:#4A4238;" class="textoSencillo"> (506) </samp> <samp style="color: #fff;" class="textoSencillo"> 2222-2222 </samp>
 	 </div>	
 	 <div class="col-md-10 menu-bottom" >
 	   <ul>
@@ -228,24 +211,19 @@
  <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
  <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script> 
  <script type="text/javascript" src="js/slick.min.js"></script>
- <script type="text/javascript" > 	
-  const realFileBtn = document.getElementById("real-file");
-  const customBtn = document.getElementById("custom-button");
-  const customTxt = document.getElementById("custom-text");
+ <script type="text/javascript" >
+ 	
+   $(document).ready(function() {
 
-  customBtn.addEventListener("click", function() {
-  realFileBtn.click();
-  });
+  	$(".regular").slick({
+     dots: true,
+     infinite: true,
+     slidesToShow: 4,
+     slidesToScroll: 1
+    });
 
-  realFileBtn.addEventListener("change", function() {
-  if (realFileBtn.value) {
-  customTxt.innerHTML = realFileBtn.value.match(
-  /[\/\\]([\w\d\s\.\-\(\)]+)$/
-  )[1];
-  } else {
-  customTxt.innerHTML = "No file chosen, yet.";
-  }
   });
+  
  </script>
 </body>
 </html>
