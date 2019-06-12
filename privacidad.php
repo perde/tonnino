@@ -102,7 +102,7 @@
   </div>
   
   <!-- Footer -->
-  <footer class="class-footer" >
+  <footer class="class-footer" style="margin-top:100px">
   <div class="container" >
   	<div class="row" >
 	 <div class="col-md-4 class-tlite-text" >
