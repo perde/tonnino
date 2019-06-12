@@ -73,7 +73,7 @@
       </div>
     </div>
 
-    <div class="title-cabecera-2" >
+    <div class="title-cabecera-2" style="padding-top: 22px" >
      <p class="title-2" > CONTACTO </p>
     </div>
       
