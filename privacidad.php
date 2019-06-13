@@ -15,7 +15,7 @@
     
     <header>
      <div class="col-md-2 padding-top-0" style="text-align:center;" >
-      <img src="img/logom.jpg" class="logo-general" />   
+      <img src="img/logom.png" class="logo-general" style="width: 114px; margin-top: 2px;" />   
       <hr class="class-padding-bottom" />
      </div>
      <div class="col-md-10 padding-top-0 " >
@@ -102,7 +102,7 @@
   </div>
   
   <!-- Footer -->
-  <footer class="class-footer" >
+  <footer class="class-footer" style="margin-top:100px">
   <div class="container" >
   	<div class="row" >
 	 <div class="col-md-4 class-tlite-text" >

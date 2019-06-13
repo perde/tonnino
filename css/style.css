@@ -321,13 +321,8 @@ path:hover {
 
 .title-cabecera-2 .title-1{ color:#A38A6F; font-size: 40px; font-family: 'EdoSZ'; }
 
+
 .title-cabecera-2 .title-2{ color:#fff; font-size: 60px; font-family: 'EdoSZ';}
-
-
-
-
-
-
 
 .class-cuadro-cr{ background: url('../img/cr-footer.jpg');height: 400px;padding-top:100px; }
 
@@ -337,11 +332,16 @@ path:hover {
 
 
 
+
 .title-cabecera-2-3{ padding-top:50px;position: absolute;width: 100%;text-align: left;z-index: 80;top: 25%;color: #fff; font-size: 50px;padding-left: 100px; }
-
 .title-cabecera-2-3 .title-1{ color:#A38A6F; font-size: 40px; font-family: 'EdoSZ'; }
-
 .title-cabecera-2-3 .title-2{ color:#fff; font-size: 50px; font-family: 'EdoSZ';}
+
+/*
+.title-cabecera-2-3{ padding-top:30px;position: absolute;width: 100%;text-align: left;z-index: 80;top: 25%;color: #fff; font-size: 50px;padding-left: 100px;  }
+.title-cabecera-2-3 .title-1{ color:#A38A6F; font-size: 40px; font-family: 'EdoSZ'; }
+.title-cabecera-2-3 .title-2{ color:#fff; font-size: 65px; font-family: 'EdoSZ';}
+*/
 
 .input-group-addon{ background: #A48A71; }
 
