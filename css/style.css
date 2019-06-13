@@ -1,205 +1,434 @@
 
+
 /*fonts*/
+
 @font-face {
+
   font-family: 'EdoSZ';
+
   src: url('../css/fonts/EdoSZ.svg#EdoSZ') format('svg'),
+
        url('../css/fonts/EdoSZ.ttf') format('truetype'),
+
        url('../css/fonts/EdoSZ.woff') format('woff');
+
   font-weight: normal;
+
   font-style: normal;
+
 }
 
+
+
 @font-face {
+
   font-family: 'edosz';
+
   src: url('../css/fonts/edosz.eot');
+
   src: url('../css/fonts/edosz.eot?#iefix') format('embedded-opentype'),
+
        url('../css/fonts/edosz.woff2') format('woff2');
+
   font-weight: normal;
+
   font-style: normal;
+
 }
 
+
+
 @font-face {
+
   font-family: 'FontAwesome5BrandsRegular';
+
   src: url('../css/fonts/FontAwesome5BrandsRegular.svg#FontAwesome5BrandsRegular') format('svg'),
+
        url('../css/fonts/FontAwesome5BrandsRegular.ttf') format('truetype'),
+
        url('../css/fonts/FontAwesome5BrandsRegular.woff') format('woff');
+
   font-weight: normal;
+
   font-style: normal;
+
 }
 
+
+
 @font-face {
+
   font-family: 'fa-brands-400';
+
   src: url('../css/fonts/fa-brands-400.eot');
+
   src: url('../css/fonts/fa-brands-400.eot?#iefix') format('embedded-opentype'),
+
        url('../css/fonts/fa-brands-400.woff2') format('woff2');
+
   font-weight: normal;
+
   font-style: normal;
+
 }
 
+
+
 @font-face {
+
   font-family: 'MyriadPro-Regular';
+
   src: url('../css/fonts/MyriadPro-Regular.eot');
+
   src: url('../css/fonts/MyriadPro-Regular.eot?#iefix') format('embedded-opentype'),
+
        url('../css/fonts/MyriadPro-Regular.svg#MyriadPro-Regular') format('svg'),
+
        url('../css/fonts/MyriadPro-Regular.ttf') format('truetype'),
+
        url('../css/fonts/MyriadPro-Regular.woff') format('woff'),
+
        url('../css/fonts/MyriadPro-Regular.woff2') format('woff2');
+
   font-weight: normal;
+
   font-style: normal;
+
 }
+
+
+
+
+
 
 
 
 
 .fontTitle {font-family: 'EdoSZ';}
+
 .textoSencillo {font-family: 'MyriadPro-Regular';}
+
 .textDescripcion{font-family: 'FontAwesome5BrandsRegular';}
+
 p{ font-family: 'FontAwesome5BrandsRegular'; }
+
 .colorMostaza {color:#A48970 !important;}
 
+
+
 .container-header{ padding: 0px; }
+
 .container-header header{ color: #FFF; position: absolute; z-index: 100; width: 100%; } 
 
+
+
 .carousel-control.left{ background-repeat:no-repeat;background-image:none; }
+
 .carousel-control.right{ background-repeat:no-repeat;background-image:none; }
 
+
+
 .carousel-control{ top: unset;bottom: 51px; opacity: unset; }
+
 .carousel-caption{ top:18%; }
+
 .img-responsive{ width: 100%; }
+
+
 
 .padding-top-0{ padding-left:0px; padding-right:0px; }
 
+
+
 .navbar { border-radius:0px; }
+
 .navbar-default .navbar-collapse, .navbar-default .navbar-form{ border-color: transparent; }
+
 .navbar-default{ background-color:transparent; border-color: transparent; border-bottom: 1px solid #fff; }
+
 .navbar-default .navbar-nav>li>a{ color:#fff; font-family: 'FontAwesome5BrandsRegular';}
 
+
+
 .class-padding-bottom { position: absolute; width: 100%; top: 31px; }
+
 .class-trace{ background: #A48A71;font-family: 'EdoSZ' !important; }
+
 .logo-general{ z-index: 90;position: inherit; }
+
 .paddin-separation{ padding-left: 25px; padding-right: 25px; }
 
+
+
 .class-enlaces-left{ position: absolute;z-index: 80; top: 30%; }
+
 .class-contect-white{ width: 75px; background: #fff; padding: 10px;margin-bottom:5px;color:#151515;font-weight:bold;font-size: 18px;text-align: center;font-family: 'EdoSZ'; }
+
 .class-compras{ background: #A48A71; padding: 10px;margin-bottom:5px;color: #fff; font-family: 'EdoSZ';}
+
 .class-bottom-mas{ padding-top: 10px;padding-bottom: 10px; padding-left: 30px;padding-right: 30px ;border: 1px solid #A48A71;color: #636363;  }
+
+
 
 .class-bottom-descubre{ padding-top: 10px; padding-bottom: 10px; padding-left: 8px; padding-right: 8px; border: 1px solid #A48A71; color: #fff;  }
 
 
+
+
+
 .container-quienes-somos{ padding-top: 30px; padding-bottom: 30px; }
+
 .container-recomendaciones{  background: url('../img/shutterstock_623233079.png'); padding-top: 50px; padding-bottom:  50px; }
+
 .content-recomendaciones { color: #fff; }
 
+
+
 .container-bg-imagen-sub{  background: url('../img/plato-de-atun.jpg');width:100%; height:505px;  }
+
 .txt-bg-conoce-sabor1{ color: #A38B71; font-size: 35px; font-family: 'EdoSZ';}
+
 .txt-bg-conoce-sabor2{ color: #fff; font-size: 70px;margin-bottom: 90px; font-family: 'EdoSZ';}
 
+
+
 /* paralos logos -- segunda seccion */
+
 .icon-recomendacion{ color: #A28B6E;width: 40px;  }
 
+
+
 .img_svg path {
+
   stroke: #A48970 ;
+
   fill: #A48970 ;
+
 }
+
 path:hover {
+
     fill:#A48970 ;
+
 }
+
+
 
 .class-recomendaciones p{ color: #fff; }
+
 .titulo-recomendaciones { color: #A48970 !important;font-size:18px; font-family: 'EdoSZ';}
+
 .class-pading-top{ padding-top: 80px; }
 
+
+
 /* Slider ::: Slider ::: Slider */
+
 .slider { width: 100%; margin: 100px auto; }
+
 .slick-slide { margin: 0px 20px; }
+
 .slick-slide img { width: 100%; }
+
 .slick-prev:before, .slick-next:before { color: black; }
+
 .slick-slide { transition: all ease-in-out .3s; opacity: .2; }
-.slick-active { opacity: .5; }
+
+.slick-active { opacity: 9; }
+
 .slick-current { opacity: 1; }
 
+
+
 /* DOCUMENTO DE DATOS */
+
 .class-conteiner-interno { position: absolute; color: #fff; bottom: 0px; text-align: center; }
+
 .class-receta-1{ color: #A38B71;font-size: 28px;font-family: 'EdoSZ'; }
+
 .class-receta-2{ color:#000;font-size: 45px; font-family: 'EdoSZ';}
+
 .margin-top{ margin-top: 200px; }
 
+
+
 .class-title-receta{ color: #656565; }
+
 .class-footer{ background: #161616;padding-top:50px; }
+
 .class-tlite-text{ color: #fff; }
+
 .margin-bottom-15{ margin-bottom:25px; }
+
 .class-redes-sociales{ color: #fff;font-size: 20px;  font-family: 'EdoSZ';}
 
+
+
 .menu-bottom ul{ list-style-type: none; margin: 0; padding: 0; overflow: hidden;color: #fff;float: right;  }
+
 .menu-bottom li{ float: left;margin-right: 20px; font-family: 'FontAwesome5BrandsRegular';}
 
+
+
 /* QUIENES SOMOS */
+
 .titulo-nosotros{ color: #A48A6F;font-size: 40px; font-family: 'EdoSZ';}
 .titulo-nosotros-2{ color: #000;font-size: 60px; font-family: 'EdoSZ';  }
 .cuadro-mision{ background:#151515;  }
 .cua-contenido{ color: #000; font-size: 30px; font-family: 'EdoSZ';}
 
+
+.cua-contenido-sos-0{ 
+ color: #A38970;
+ font-size: 25px;
+ font-family: 'EdoSZ';
+ margin: 0px;
+}
+
+.cua-contenido-sos-1{ 
+ color: #000;
+ font-size: 38px;
+ font-family: 'EdoSZ';
+ line-height: 30px; 
+}
+
+
+.titulo-sostenibilidad-2{     
+ color: #A38970;
+ font-size: 87px;
+ font-family: 'EdoSZ';
+ line-height: 9PX;
+ margin-bottom: 80px;  
+}
+
+
 .class-cuadro-lorem{ background: url('../img/quienes-somos-cuadro.jpg');height: 400px;padding-top:100px; font-family: 'EdoSZ';}
+
+.class-cuadro-lorem-2{ background: url('../img/home-sostenibilidad.jpg');height: 400px;padding-top:50px; font-family: 'EdoSZ';}
+
+
+
+
 .class-lorem-top{ color: #A38A6F;font-size: 40px; }
+
 .class-lorem-bottom{ color: #FFF;font-size: 60px; }
+
 .title-cabecera{ padding-top:50px;position: absolute;width: 100%;text-align: center;z-index: 80;top: 40%;color: #fff; font-size: 50px; font-family: 'EdoSZ';}
+
 .title-cabecera-2{ padding-top:50px;position: absolute;width: 100%;text-align: center;z-index: 80;top: 25%;color: #fff; font-size: 50px; }
 
+
+
 .title-cabecera-2 .title-1{ color:#A38A6F; font-size: 40px; font-family: 'EdoSZ'; }
+
 .title-cabecera-2 .title-2{ color:#fff; font-size: 60px; font-family: 'EdoSZ';}
 
 
 
+
+
+
+
 .class-cuadro-cr{ background: url('../img/cr-footer.jpg');height: 400px;padding-top:100px; }
+
 .class-cuadro-top{ color: #fff;font-size: 40px; font-family: 'EdoSZ'; }
+
 .class-cuadro-bottom{ color: #000;font-size: 60px; font-family: 'EdoSZ';  }
 
+
+
 .title-cabecera-2-3{ padding-top:50px;position: absolute;width: 100%;text-align: left;z-index: 80;top: 25%;color: #fff; font-size: 50px;padding-left: 100px; }
+
 .title-cabecera-2-3 .title-1{ color:#A38A6F; font-size: 40px; font-family: 'EdoSZ'; }
+
 .title-cabecera-2-3 .title-2{ color:#fff; font-size: 50px; font-family: 'EdoSZ';}
+
 .input-group-addon{ background: #A48A71; }
 
+
+
 .class-input-receta{ height: 42px; } 
+
 .class-input-registro{ padding: 0px; width: 40px; padding-top: 2px; padding-bottom: 2px; }
+
+
 
 /* PADIN REGISTROS ::: PADIN REGISTRO */
 
+
+
 .class-conteiner-recetas{ padding-left: 20px; padding-right:20px; }
+
 .regular-receta{ margin-top: 0px; }
+
 .class-receta-reciente{ margin-top: 50px; }
 
+
+
 .class-receta-reciente .class-title-1{ color: #A38B71; font-size: 48px; font-family: 'EdoSZ';line-height: 45px; } 
+
 .class-receta-reciente .class-title-2{ color: #000; font-size: 60px; font-family: 'EdoSZ';line-height: 45px; }
 
+
+
 .class-404{ 
+
  background: url(../img/404.png) no-repeat center center fixed; 
+
  -webkit-background-size: cover;
+
  -moz-background-size: cover;
+
  -o-background-size: cover;
+
  background-size: cover;
+
 }
 
+
+
 .center-conteiner{ text-align: center; }
+
 .class-text-404{ color: #fff; font-size: 300px; font-family: 'EdoSZ'; margin-top:0px; margin-bottom: 0px; }
+
 .class-text-busca{ font-family: 'EdoSZ'; color: #A48A71; font-size: 40px; margin-top: 0px; margin-bottom: 0px; }
+
 .class-text-text1{ color: #fff; font-size: 17px; margin: 10px; }
+
+
 
 /* CONTACTO ::: CONTACTO ::: CONTACTO */
 
+
+
 .class-cont-trabaja{ padding:10px;background:#A28871;color:#fff;text-align: left; }
+
 .class-cont-trabaja-1{ padding:8px;border: 2px solid #A28871;color:#000;text-align: left; }
 
 
+
+
+
 .class-conteiner-upsum{ padding-left: 100px; width: 100%; padding-right: 100px; display: table;margin-bottom: 20px; margin-top: 40px; }
+
 .class-margin-bottom-20{ margin-bottom: 20px; }
 
 
+
+
+
 /* ADJUNTAR CV */ /* ADJUNTAR CV */ /* ADJUNTAR CV */
+
 #custom-button { padding: 10px; color: #fff; background-color:#A28871;border: 0px solid #A28871;cursor: pointer; }
+
 /* #custom-button:hover { background-color: #00b28f; } */
+
 #custom-text{ margin-left: 10px; font-family: sans-serif; color: #aaa; }
 
+
+
 .btn-danger-marron{ background:#A28871;padding:15px;color: #fff; padding-left: 40px;padding-right: 40px;border-radius:0px;   }
+
 .btn-danger-marron:hover{ color: #fff; }
+
 .class-text-input{ height: 42px; }
